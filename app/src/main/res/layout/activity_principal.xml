@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="TextView" />
+
+        <Spinner
+            android:id="@+id/CmbMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Materiales" />
+
+        <Spinner
+            android:id="@+id/CmbDije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Dijes" />
+
+        <Spinner
+            android:id="@+id/CmbTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Tipos" />
+
+        <Spinner
+            android:id="@+id/CmbMoneda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Monedas" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="@string/Valor"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:ems="10"
+            android:hint="@string/Cantidad"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/LblPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="selected"
+            android:text="Calcular" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

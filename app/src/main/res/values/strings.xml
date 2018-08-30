@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TallerManilla</string>
+    <string name="Material">Material</string>
+    <string name="Cuero">Cuero</string>
+    <string name="Cuerda">Cuerda</string>
+    <string name="Martillo">Martillo</string>
+    <string name="Ancla">Ancla</string>
+    <string name="Dije">Dije</string>
+    <string name="Valor">Valor</string>
+    <string name="Oro">Oro</string>
+    <string name="Oro_Rosado">Oro Rosado</string>
+    <string name="Plata">Plata</string>
+    <string name="Niquel">Niquel</string>
+    <string-array name="Materiales">
+        <item>@string/Cuero</item>
+        <item>@string/Cuerda</item>
+    </string-array>
+    <string-array name="Dijes">
+        <item>@string/Martillo</item>
+        <item>@string/Ancla</item>
+    </string-array>
+    <string-array name="Tipos">
+        <item>@string/Oro</item>
+        <item>@string/Oro_Rosado</item>
+        <item>@string/Plata</item>
+        <item>@string/Niquel</item>
+    </string-array>
+    <string-array name="Monedas">
+        <item>@string/Dolar</item>
+        <item>@string/Pesos</item>
+    </string-array>
+    <string name="Pesos">Pesos</string>
+    <string name="Dolar">Dolar</string>
+    <string name="Error_uno">¡El campo no puede esta vacio!</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Error_dos">La cantidad debe ser mayor que 0</string>
+    <string name="Moneda">Moneda</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TallerManilla</string>
+    <string name="Material">Material</string>
+    <string name="Cuero">Leather</string>
+    <string name="Cuerda">Rope</string>
+    <string name="Martillo">Hammer</string>
+    <string name="Ancla">Anchor</string>
+    <string name="Dije">Pendant</string>
+    <string name="Valor">Value</string>
+    <string name="Oro">Gold</string>
+    <string name="Oro_Rosado">Pink Gold</string>
+    <string name="Plata">Silver</string>
+    <string name="Niquel">Nickel</string>
+    <string name="Pesos">Pesos</string>
+    <string name="Dolar">Dollar</string>
+    <string name="Error_uno">The field can not be empty!</string>
+    <string name="Cantidad">Quantity</string>
+    <string name="Error_dos">The amount must be greater than 0</string>
+    <string name="Moneda">Coin</string>
+</resources>
