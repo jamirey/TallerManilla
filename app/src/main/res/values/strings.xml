@@ -26,6 +26,7 @@
     <string name="Error_2">Escoja un Dije</string>
     <string name="Error_3">Escoja un Tipo</string>
     <string name="Error_4">Escoja Moneda</string>
+    <string name="calcular">Calcular</string>
 
     <string-array name="Materiales">
         <item>@string/Seleccione_Material</item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TallerManilla</string>
-    <string name="Titulo">Manillas XYZ</string>
+    <string name="app_name">HandcuffWorkshop</string>
+    <string name="Titulo">XYZ Handles</string>
     <string name="Material">Material</string>
     <string name="Cuero">Leather</string>
     <string name="Cuerda">Rope</string>
@@ -27,4 +27,5 @@
     <string name="Error_2">" Choose a Charm"</string>
     <string name="Error_3">Choose a Type</string>
     <string name="Error_4">Choose Currency</string>
+    <string name="calcular">Calculate</string>
 </resources>
