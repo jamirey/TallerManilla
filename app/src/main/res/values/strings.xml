@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">TallerManilla</string>
+    <string name="Titulo">Manillas XYZ</string>
     <string name="Material">Material</string>
     <string name="Cuero">Cuero</string>
     <string name="Cuerda">Cuerda</string>
@@ -11,28 +12,45 @@
     <string name="Oro_Rosado">Oro Rosado</string>
     <string name="Plata">Plata</string>
     <string name="Niquel">Niquel</string>
-    <string-array name="Materiales">
-        <item>@string/Cuero</item>
-        <item>@string/Cuerda</item>
-    </string-array>
-    <string-array name="Dijes">
-        <item>@string/Martillo</item>
-        <item>@string/Ancla</item>
-    </string-array>
-    <string-array name="Tipos">
-        <item>@string/Oro</item>
-        <item>@string/Oro_Rosado</item>
-        <item>@string/Plata</item>
-        <item>@string/Niquel</item>
-    </string-array>
-    <string-array name="Monedas">
-        <item>@string/Dolar</item>
-        <item>@string/Pesos</item>
-    </string-array>
     <string name="Pesos">Pesos</string>
     <string name="Dolar">Dolar</string>
     <string name="Error_uno">¡El campo no puede esta vacio!</string>
     <string name="Cantidad">Cantidad</string>
     <string name="Error_dos">La cantidad debe ser mayor que 0</string>
     <string name="Moneda">Moneda</string>
+    <string name="Seleccione_Material">Seleccione Material</string>
+    <string name="Seleccione_Dije">Seleccione Dije</string>
+    <string name="Seleccione_Tipo">Seleccione Tipo</string>
+    <string name="Seleccione_Moneda">Seleccione Moneda</string>
+    <string name="Error_1">Escoja un Material</string>
+    <string name="Error_2">Escoja un Dije</string>
+    <string name="Error_3">Escoja un Tipo</string>
+    <string name="Error_4">Escoja Moneda</string>
+
+    <string-array name="Materiales">
+        <item>@string/Seleccione_Material</item>
+        <item>@string/Cuero</item>
+        <item>@string/Cuerda</item>
+    </string-array>
+
+    <string-array name="Dijes">
+        <item>@string/Seleccione_Dije</item>
+        <item>@string/Martillo</item>
+        <item>@string/Ancla</item>
+    </string-array>
+
+    <string-array name="Tipos">
+        <item>@string/Seleccione_Tipo</item>
+        <item>@string/Oro</item>
+        <item>@string/Oro_Rosado</item>
+        <item>@string/Plata</item>
+        <item>@string/Niquel</item>
+    </string-array>
+
+    <string-array name="Monedas">
+        <item>@string/Seleccione_Moneda</item>
+        <item>@string/Dolar</item>
+        <item>@string/Pesos</item>
+    </string-array>
+
 </resources>

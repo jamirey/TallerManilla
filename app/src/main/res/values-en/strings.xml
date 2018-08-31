@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TallerManilla</string>
+    <string name="Titulo">Manillas XYZ</string>
     <string name="Material">Material</string>
     <string name="Cuero">Leather</string>
     <string name="Cuerda">Rope</string>
@@ -18,4 +19,12 @@
     <string name="Cantidad">Quantity</string>
     <string name="Error_dos">The amount must be greater than 0</string>
     <string name="Moneda">Coin</string>
+    <string name="Seleccione_Material">Select Material</string>
+    <string name="Seleccione_Dije">Select I said</string>
+    <string name="Seleccione_Tipo">Select Type</string>
+    <string name="Seleccione_Moneda">Select Currency</string>
+    <string name="Error_1">Choose a Material</string>
+    <string name="Error_2">" Choose a Charm"</string>
+    <string name="Error_3">Choose a Type</string>
+    <string name="Error_4">Choose Currency</string>
 </resources>
